@@ -31,13 +31,13 @@ PRODUCT_PACKAGES += \
     charger
 
 PRODUCT_COPY_FILES += \
-    device/IUNI/U810/kernel:kernel \
-    device/IUNI/U810/dt.img:dt.img
+    device/iuni/u810/kernel:kernel \
+    device/iuni/u810/dt.img:dt.img
 
-PRODUCT_COPY_FILES += device/IUNI/U810/twrp.fstab:recovery/root/etc/twrp.fstab
+PRODUCT_COPY_FILES += device/iuni/u810/twrp.fstab:recovery/root/etc/twrp.fstab
 
-PRODUCT_NAME := omni_U810
-PRODUCT_DEVICE := U810
-PRODUCT_BRAND := IUNI
-PRODUCT_MODEL := U810
-PRODUCT_MANUFACTURER := U810
+PRODUCT_NAME := omni_u810
+PRODUCT_DEVICE := u810
+PRODUCT_BRAND := iuni
+PRODUCT_MODEL := u810
+PRODUCT_MANUFACTURER := iuni
