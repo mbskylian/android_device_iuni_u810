@@ -7,7 +7,7 @@ TARGET_CPU_VARIANT := krait
 # Krait optimizations
 TARGET_USE_KRAIT_BIONIC_OPTIMIZATION := true
 
-TARGET_BOOTLOADER_BOARD_NAME := U810
+TARGET_BOOTLOADER_BOARD_NAME := u810
 TARGET_BOARD_PLATFORM := msm8974
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno330
 
@@ -15,12 +15,12 @@ BOARD_KERNEL_SEPARATED_DT := true
 BOARD_KERNEL_CMDLINE := ttyHSL0,115200,n8 androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x37 ehci-hcd.park=3
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_PAGESIZE := 2048
-BOARD_MKBOOTIMG_ARGS := --dt device/IUNI/U810/dt.img --kernel_offset 0x0008000 --ramdisk_offset 0x01000000 --tags_offset 0x0000100
+BOARD_MKBOOTIMG_ARGS := --dt device/iuni/u810/dt.img --kernel_offset 0x0008000 --ramdisk_offset 0x01000000 --tags_offset 0x0000100
 
 # prebuilt kernel
-TARGET_PREBUILT_KERNEL := device/IUNI/U810/kernel
+TARGET_PREBUILT_KERNEL := device/iuni/u810/kernel
 
-TARGET_RECOVERY_FSTAB := device/IUNI/U810/fstab.qcom
+TARGET_RECOVERY_FSTAB := device/iuni/u810/fstab.qcom
 
 BOARD_BOOTIMAGE_PARTITION_SIZE := 0x01400000
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 0x01400000
