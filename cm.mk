@@ -35,7 +35,8 @@ PRODUCT_MODEL := u810
 PRODUCT_MANUFACTURER := iuni
 
 # Kernel
-TARGET_KERNEL_SOURCE := kernel/iuni/u810
-TARGET_KERNEL_CONFIG := u810_defconfig
+TARGET_PREBUILT_KERNEL := device/iuni/u810/kernel
+#TARGET_KERNEL_SOURCE := kernel/iuni/u810
+#TARGET_KERNEL_CONFIG := u810_defconfig
 
 $(call inherit-product-if-exists, vendor/iuni/u810/u810-vendor.mk)

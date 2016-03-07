@@ -112,7 +112,7 @@ WIFI_DRIVER_MODULE_NAME := "wlan"
 BOARD_EGL_CFG := device/iuni/u810/egl.cfg
 
 # fix this up by examining /proc/mtd on a running device
-BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000 --kernel_offset 0x00008000
+BOARD_MKBOOTIMG_ARGS :=  --dt device/iuni/u810/dt.img --ramdisk_offset 0x02000000 --kernel_offset 0x00008000
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1073741824
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 3221225472
 BOARD_FLASH_BLOCK_SIZE := 131072
