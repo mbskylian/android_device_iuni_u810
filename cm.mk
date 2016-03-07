@@ -26,16 +26,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/cm/config/common_mini_phone.mk)
 
 # Inherit from hardware-specific part of the product configuration
-$(call inherit-product, device/gionee/e7/e7.mk)
+$(call inherit-product, device/iuni/u810/u810.mk)
 
-PRODUCT_NAME := cm_e7
-PRODUCT_DEVICE := e7
-PRODUCT_BRAND := gm
-PRODUCT_MODEL := e7
-PRODUCT_MANUFACTURER := gm
+PRODUCT_NAME := cm_u810
+PRODUCT_DEVICE := u810
+PRODUCT_BRAND := iuni
+PRODUCT_MODEL := u810
+PRODUCT_MANUFACTURER := iuni
 
 # Kernel
-TARGET_KERNEL_SOURCE := kernel/gm/e7
-TARGET_KERNEL_CONFIG := e7_defconfig
+TARGET_KERNEL_SOURCE := kernel/iuni/u810
+TARGET_KERNEL_CONFIG := u810_defconfig
 
-$(call inherit-product-if-exists, vendor/gm/e7/e7-vendor.mk)
+$(call inherit-product-if-exists, vendor/iuni/u810/u810-vendor.mk)

@@ -19,45 +19,45 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # TWRP
 PRODUCT_COPY_FILES += \
-    device/gionee/e7/rootdir/init.qcom.usb.rc:recovery/root/init.usb.rc \
-    device/gionee/e7/rootdir/twrp.fstab:recovery/root/etc/twrp.fstab 
+    device/iuni/u810/rootdir/init.qcom.usb.rc:recovery/root/init.usb.rc \
+    device/iuni/u810/rootdir/twrp.fstab:recovery/root/etc/twrp.fstab 
 
-# E7 Init files
+# u810 Init files
 PRODUCT_COPY_FILES += \
-    device/gionee/e7/rootdir/init.qcom.rc:root/init.qcom.rc \
-    device/gionee/e7/rootdir/init.qcom.class_core.sh:root/init.qcom.class_core.sh \
-    device/gionee/e7/rootdir/init.qcom.class_main.sh:root/init.qcom.class_main.sh \
-    device/gionee/e7/rootdir/init.qcom.early_boot.sh:root/init.qcom.early_boot.sh \
-    device/gionee/e7/rootdir/init.qcom.factory.sh:root/init.qcom.factory.sh \
-    device/gionee/e7/rootdir/init.qcom.sh:root/init.qcom.sh \
-    device/gionee/e7/rootdir/init.qcom.ssr.sh:root/init.qcom.ssr.sh \
-    device/gionee/e7/rootdir/init.qcom.syspart_fixup.sh:root/init.qcom.syspart_fixup.sh \
-    device/gionee/e7/rootdir/init.qcom.usb.sh:root/init.qcom.usb.sh \
-    device/gionee/e7/rootdir/init.qcom.usb.rc:root/init.qcom.usb.rc \
-    device/gionee/e7/rootdir/init.target.rc:root/init.target.rc \
-    device/gionee/e7/rootdir/fstab.qcom:root/fstab.qcom \
-    device/gionee/e7/rootdir/ueventd.qcom.rc:root/ueventd.qcom.rc \
-    device/gionee/e7/mount_ext4.sh:system/bin/mount_ext4.sh
+    device/iuni/u810/rootdir/init.qcom.rc:root/init.qcom.rc \
+    device/iuni/u810/rootdir/init.qcom.class_core.sh:root/init.qcom.class_core.sh \
+    device/iuni/u810/rootdir/init.qcom.class_main.sh:root/init.qcom.class_main.sh \
+    device/iuni/u810/rootdir/init.qcom.early_boot.sh:root/init.qcom.early_boot.sh \
+    device/iuni/u810/rootdir/init.qcom.factory.sh:root/init.qcom.factory.sh \
+    device/iuni/u810/rootdir/init.qcom.sh:root/init.qcom.sh \
+    device/iuni/u810/rootdir/init.qcom.ssr.sh:root/init.qcom.ssr.sh \
+    device/iuni/u810/rootdir/init.qcom.syspart_fixup.sh:root/init.qcom.syspart_fixup.sh \
+    device/iuni/u810/rootdir/init.qcom.usb.sh:root/init.qcom.usb.sh \
+    device/iuni/u810/rootdir/init.qcom.usb.rc:root/init.qcom.usb.rc \
+    device/iuni/u810/rootdir/init.target.rc:root/init.target.rc \
+    device/iuni/u810/rootdir/fstab.qcom:root/fstab.qcom \
+    device/iuni/u810/rootdir/ueventd.qcom.rc:root/ueventd.qcom.rc \
+    device/iuni/u810/mount_ext4.sh:system/bin/mount_ext4.sh
 
 # system/etc files
 PRODUCT_COPY_FILES += \
-    device/gionee/e7/rootdir/etc/hsic.control.bt.sh:system/etc/hsic.control.bt.sh \
-    device/gionee/e7/rootdir/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
-    device/gionee/e7/rootdir/etc/usf_post_boot.sh:system/etc/usf_post_boot.sh \
-    device/gionee/e7/rootdir/etc/init.qcom.modem_links.sh:system/etc/init.qcom.modem_links.sh
+    device/iuni/u810/rootdir/etc/hsic.control.bt.sh:system/etc/hsic.control.bt.sh \
+    device/iuni/u810/rootdir/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
+    device/iuni/u810/rootdir/etc/usf_post_boot.sh:system/etc/usf_post_boot.sh \
+    device/iuni/u810/rootdir/etc/init.qcom.modem_links.sh:system/etc/init.qcom.modem_links.sh
 
 PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_audio.xml:system/etc/media_codecs_google_audio.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_telephony.xml:system/etc/media_codecs_google_telephony.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_video.xml:system/etc/media_codecs_google_video.xml \
-    device/gionee/e7/media_codecs.xml:system/etc/media_codecs.xml \
-    device/gionee/e7/media_profiles.xml:system/etc/media_profiles.xml
+    device/iuni/u810/media_codecs.xml:system/etc/media_codecs.xml \
+    device/iuni/u810/media_profiles.xml:system/etc/media_profiles.xml
 
 # Config files for touch and input
 PRODUCT_COPY_FILES += \
-    device/gionee/e7/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
-    device/gionee/e7/keylayout/atmel_mxt_ts.kl:system/usr/keylayout/atmel_mxt_ts.kl \
-    device/gionee/e7/keylayout/synaptics_rmi4_i2c.kl:system/usr/keylayout/synaptics_rmi4_i2c.kl
+    device/iuni/u810/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
+    device/iuni/u810/keylayout/atmel_mxt_ts.kl:system/usr/keylayout/atmel_mxt_ts.kl \
+    device/iuni/u810/keylayout/synaptics_rmi4_i2c.kl:system/usr/keylayout/synaptics_rmi4_i2c.kl
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
@@ -86,18 +86,18 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.ethernet.xml:system/etc/permissions/android.hardware.ethernet.xml
 
 PRODUCT_COPY_FILES += \
-    device/gionee/e7/thermal-engine-8974.conf:system/etc/thermal-engine-8974.conf
+    device/iuni/u810/thermal-engine-8974.conf:system/etc/thermal-engine-8974.conf
 
 # Wifi config
 PRODUCT_COPY_FILES += \
-    device/gionee/e7/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
-    device/gionee/e7/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
-device/gionee/e7/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf
+    device/iuni/u810/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
+    device/iuni/u810/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
+device/iuni/u810/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf
 
 PRODUCT_TAGS += dalvik.gc.type-precise
 
 DEVICE_PACKAGE_OVERLAYS := \
-    device/gionee/e7/overlay
+    device/iuni/u810/overlay
 
 PRODUCT_PACKAGES += \
     dhcpcd.conf \
@@ -132,9 +132,9 @@ PRODUCT_PACKAGES += \
  PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.nfc.hce.xml:system/etc/permissions/android.hardware.nfc.hce.xml \
     frameworks/native/data/etc/android.hardware.nfc.xml:system/etc/permissions/android.hardware.nfc.xml \
-    device/gionee/e7/nfc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
-    device/gionee/e7/nfc/libnfc-brcm-20791b05.conf:system/etc/libnfc-brcm-20791b05.conf \
-    device/gionee/e7/nfc/nfcee_access.xml:system/etc/nfcee_access.xml
+    device/iuni/u810/nfc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
+    device/iuni/u810/nfc/libnfc-brcm-20791b05.conf:system/etc/libnfc-brcm-20791b05.conf \
+    device/iuni/u810/nfc/nfcee_access.xml:system/etc/nfcee_access.xml
     
 # Media & Audio
 PRODUCT_PACKAGES += \
@@ -182,22 +182,22 @@ PRODUCT_PACKAGES += \
 
 # sensors
 PRODUCT_COPY_FILES += \
-    device/gionee/e7/sensor/sap.conf:system/etc/sap.conf \
-    device/gionee/e7/sensor/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf
+    device/iuni/u810/sensor/sap.conf:system/etc/sap.conf \
+    device/iuni/u810/sensor/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf
 
 # MSM IPC Router security configuration
 PRODUCT_COPY_FILES += \
-    device/gionee/e7/sec_config:system/etc/sec_config
+    device/iuni/u810/sec_config:system/etc/sec_config
 
 PRODUCT_COPY_FILES += \
-    device/gionee/e7/audio/audio_effects.conf:system/vendor/etc/audio_effects.conf \
-    device/gionee/e7/audio/audio_policy.conf:system/etc/audio_policy.conf \
-    device/gionee/e7/audio/mixer_paths.xml:system/etc/mixer_paths.xml \
-    device/gionee/e7/audio/mixer_paths_auxpcm.xml:system/etc/mixer_paths_auxpcm.xml
+    device/iuni/u810/audio/audio_effects.conf:system/vendor/etc/audio_effects.conf \
+    device/iuni/u810/audio/audio_policy.conf:system/etc/audio_policy.conf \
+    device/iuni/u810/audio/mixer_paths.xml:system/etc/mixer_paths.xml \
+    device/iuni/u810/audio/mixer_paths_auxpcm.xml:system/etc/mixer_paths_auxpcm.xml
     
 # GPS configuration
 PRODUCT_COPY_FILES += \
-    device/gionee/e7/gps.conf:system/etc/gps.conf
+    device/iuni/u810/gps.conf:system/etc/gps.conf
 
 PRODUCT_PACKAGES += \
     com.android.future.usb.accessory
